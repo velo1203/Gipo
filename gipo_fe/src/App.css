@@ -1,0 +1,18 @@
+/* 기존 코드 */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+code{
+  background-color: red;
+}
+
+
+blockquote {
+  border-left: 4px solid #f9f9f9;
+  padding-left: 10px;
+  margin-left: 0;
+  font-style: italic;
+}

@@ -1,0 +1,50 @@
+
+.App-search {
+    height: 150px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-input,
+  .search-button {
+    padding: 12px;
+    height: 40px;  /* 높이 명시적으로 설정 */
+    box-sizing: border-box;  /* padding과 border가 높이와 너비에 포함되도록 설정 */
+  }
+  
+  .search-input {
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid rgb(177, 177, 177);
+    outline: none;  /* 포커스 시 테두리 제거 */
+    transition: all 0.2s;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .search-button {
+    background-color: rgb(107, 111, 120);
+    border: none;  /* 테두리 제거 */
+    color: white;
+    transition: all 0.2s;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .search-button:hover {
+    opacity: 0.9;
+  }
+  
+  /* 추가: 입력 필드가 포커스되었을 때의 스타일 */
+  .search-input:focus {
+    border-color: rgb(114, 114, 114);
+  }

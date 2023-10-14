@@ -1,0 +1,65 @@
+.setting-user-profile-page {
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 800px;  /* Adjusted for better alignment */
+    margin: 40px auto; /* Increased margin for better centering */
+    padding: 30px;     /* Increased padding for better spacing */
+    background-color: #ffffff; /* Changed to white for clarity */
+}
+
+.setting-title {
+    font-size: 28px; /* Increased for prominence */
+    margin-bottom: 30px; /* Increased spacing */
+    text-align: center; /* Centered the title */
+}
+
+/* Adjustments for profile image */
+.setting-basic-info img {
+    width: 150px;   /* Or whatever size you desire */
+    height: 150px;
+    border-radius: 50%;  /* Makes the image circular */
+    margin-top: 10px;
+}
+
+.setting-basic-info, .setting-social-links, .setting-biography {
+    margin-bottom: 30px; /* Increased margin for clarity */
+}
+
+.setting-input {
+    margin-bottom: 15px; /* Space between inputs */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the start */
+}
+.setting-input > p{
+    margin: 5px;
+}
+.setting-input > textarea{
+    height: 80px;
+    resize: none;
+}
+.setting-section-title{
+    margin-bottom: 15px;
+}
+
+.setting-save-button{
+    width: 150px;
+    font-size: 15px;
+}
+/* New styles for section titles */
+.setting-section-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.setting-facebook, .setting-twitter{
+    color: rgb(68, 183, 255);
+}
+.setting-instagram {
+    color: rgb(255, 77, 0);
+}
+.setting-status-message{
+    word-wrap: break-word; /* 단어가 너무 길면 단어도 줄바꿈됩니다. */
+    white-space: pre-wrap; /* 공백과 줄 바꿈을 그대로 유지하면서, 필요할 경우 줄 바꿈됩니다. */
+    overflow-wrap: break-word; /* word-wrap와 동일하지만, 더 현대적인 속성입니다. */
+}

@@ -1,0 +1,79 @@
+.mypage-container{
+    max-width: 1200px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile-section{
+    display: flex;
+    align-items: center;
+}
+
+.profile-avatar{
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile-overview{
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+}
+
+.profile-social{
+    width: 150px;
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: 1px solid rgba(171, 171, 171, 0.519);
+}
+
+.profile-social > p{
+    color: rgb(104, 104, 104);
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-social > a{
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+/* 반응형 디자인: 태블릿 (768px 이하) */
+@media only screen and (max-width: 768px) {
+    .mypage-container {
+        width: 90%;
+    }
+    .profile-section {
+        flex-direction: column;
+        align-items: start;
+    }
+    .profile-avatar {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .profile-overview {
+        width: 100%;
+        max-width: none;
+        display: block;
+    }
+}
+
+/* 반응형 디자인: 모바일 (480px 이하) */
+@media only screen and (max-width: 480px) {
+    .mypage-container {
+        width: 100%;
+    }
+    .profile-avatar {
+        width: 80px;
+    }
+    .profile-social > p {
+        font-size: 16px;
+    }
+    .profile-social > a {
+        font-size: 20px;
+    }
+}

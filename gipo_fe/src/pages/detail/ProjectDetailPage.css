@@ -1,0 +1,96 @@
+.detail-container{
+    max-width: 1200px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.detail-header {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.detail-title {
+    color: #333;
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+}
+
+.detail-author {
+    color: #888;
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.detail-author:hover {
+    opacity: 0.8;
+}
+
+.detail-description {   
+    margin: 25px 0px;
+}
+.detail-description img {
+    width: 500px;
+}
+
+
+.detail-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.detail-link > svg{
+    font-size: 13px;
+}
+
+
+.detail-link:hover {
+    color: #0056b3;
+}
+
+.detail-info {
+    margin-bottom: 13px;
+
+}
+.detail-documentation-content{
+    margin-top: 15px;
+    
+    padding: 5px;
+}
+.detail-tags{
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.detail-documentation {
+    border-top: 1px solid rgb(222, 222, 222);
+    margin-top: 20px; /* Spacing from the title */
+    padding: 15px; /* Inner spacing for the content */
+    transition: all 0.3s ease-in-out; /* Smooth transition for any changes */
+    overflow-y: auto; /* If the content becomes too much, it becomes scrollable */
+    max-height: 500px; /* Set a max-height and show scroll if content is more */
+}
+
+.detail-documentation-content {
+    margin-top: 15px;
+    padding: 5px;
+    line-height: 1.6; /* Improved line spacing for readability */
+}
+
+.section-title {
+    cursor: pointer; /* Indicates that the title is clickable */
+    user-select: none; /* Prevents the text from being selectable, as it's an action item */
+}
+.section-title:hover{
+    opacity: 0.8;
+}
+
+.read-me{
+    padding: 15px;
+    margin-top: 15px;
+}

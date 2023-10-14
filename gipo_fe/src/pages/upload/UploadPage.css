@@ -1,0 +1,93 @@
+.upload-container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 25px 100px;
+    background-color: #fff;
+}
+
+
+
+.upload-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 24px;
+}
+
+.form-button {
+    width: 100px;
+    display: block;
+    padding: 10px 15px;
+    color: rgb(95, 95, 95);
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.06);
+    border: 1px solid #ddd;
+    background-color: #474747;
+    color: #fff;
+}
+
+.form-button:hover {
+    background-color: #646464;
+    border: 1px solid #2f2f2f;
+}
+
+.form-button-group {
+    display: flex;
+}
+
+.image-upload-label {
+    cursor: pointer;
+    color: rgb(107, 111, 120);
+    transition: all 0.2s;
+}
+
+.image-upload-label:hover {
+    opacity: 0.8;
+}
+
+.preview-image {
+    width: 100%;
+    max-width: 250px;
+}
+
+.image-upload-container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    max-width: 500px;
+    align-items: center;
+    height: 125px;
+    border: 1px solid rgba(0, 0, 0, 0.334);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.image-upload-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.image-upload-icon {
+    font-size: 25px;
+    margin: 3px;
+}   
+
+.toastui-editor-defaultUI-toolbar, .toastui-editor-md-splitter{
+    background-color: #ffffff00 !important;
+}
+.toastui-editor-defaultUI{
+    border: none !important;
+}
+.toastui-editor-defaultUI code{
+    background-color: rgba(224, 224, 224, 0.222) !important;
+    color: #2f2f2f !important;
+}

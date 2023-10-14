@@ -1,0 +1,22 @@
+.tag-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.delete-tag {
+    transition: all 0.2s;
+    color: #c5c5c5;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.delete-tag:hover {
+    color: rgb(187, 187, 187);
+}
+
+.tag-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}

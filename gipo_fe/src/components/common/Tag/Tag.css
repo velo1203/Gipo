@@ -1,0 +1,19 @@
+.tag {
+    margin: 2px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 3px 10px;
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #9d9d9d;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tag:hover {
+    background-color: rgb(238, 238, 238);
+}
